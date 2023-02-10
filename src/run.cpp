@@ -1,0 +1,1 @@
+! chmod 755 q; chmod 755 run_simple-vector-incr.sh; if [ -x "$(command -v qsub)" ]; then ./q run_simple-vector-incr.sh; else ./run_simple-vector-incr.sh; fi
